@@ -1,0 +1,33 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 35px;
+    height: 85vh;
+}
+.img {
+    width: 450px;
+    height: 330px;
+    border-radius: 10px;
+    margin-top: 32px;
+    background-color: #cccccc;
+}
+.country-name {
+    width: 250px;
+    height: 35px;
+    margin-right: 500px;
+    border-radius: 5px;
+    background-color: #cccccc;
+    margin-bottom: 50px;
+}
+.detail {
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #cccccc;
+    margin-top: 22px;
+}
+.data {
+    margin-top: 25px;
+}
