@@ -15,7 +15,7 @@ export default function CountryDetail() {
   useEffect(() => {
     setLoading(true);
 
-    fetch("/Data.json")
+    fetch(`${import.meta.env.BASE_URL}Data.json`)
       .then((res) => res.json())
       .then((data) => {
         const query = decodeURIComponent(countryParam || "").trim().toLowerCase();

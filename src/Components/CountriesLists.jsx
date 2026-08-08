@@ -8,7 +8,7 @@ export default function CountriesLists({ query = "", region = "" }) {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch("/Data.json")
+    fetch(`${import.meta.env.BASE_URL}Data.json`)
       .then((res) => {
         if (!res.ok) throw new Error("Data.json file nahi mili");
         return res.json();
